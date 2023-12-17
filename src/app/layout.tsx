@@ -3,7 +3,6 @@ import Notification from '@/components/Notification'
 import NavBar from '@/components/NavBar'
 import Footer from '@/components/Footer'
 import './globals.css'
-import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 
 import "@fortawesome/fontawesome-svg-core/styles.css";
@@ -18,10 +17,6 @@ import { usePathname } from 'next/navigation'
 
 const inter = Inter({ subsets: ['latin'] })
 
-export const metadata: Metadata = {
-  title: 'Los Toneles',
-  description: 'La mejor comida tipica de Tegucigalpa',
-}
 
 export default function RootLayout({
   children,
